@@ -1,0 +1,60 @@
+{
+	"output_file": "MTSSettings.json",
+	"desired_command": {
+		"type": "textbox",
+		"value": "!give",
+		"label": "Chat Command",
+		"tooltip": "Command that users will use when they want to transfer currency",
+		"group": "Setup"
+	},
+	"currency_name": {
+		"type": "textbox",
+		"value": "Kems",
+		"label": "Currency Name",
+		"tooltip": "The name of your currency",
+		"group": "Setup"
+	},
+	"minimum_permissions": {
+		"type": "textbox",
+		"value": "everyone",
+		"label": "Minimum Permissions",
+		"tooltip": "Command that users will use when they want to transfer currency",
+		"group": "Chat Messages"
+	},
+	"successful_transfer_message": {
+		"type": "textbox",
+		"value": "{0} has successfully transfered {1} {2} to {3}.",
+		"label": "Transfer Success Message",
+		"tooltip": "Chat message will be sent on successful transfer of currency. 0-user, 1-amount, 2-currency, 3 target",
+		"group": "Chat Messages"
+	},
+	"not_enough_funds_message": {
+		"type": "textbox",
+		"value": "Sorry {0}, you do not have enough {1}.",
+		"label": "Not Enough Funds Message",
+		"tooltip": "Chat message will be sent if user doesnt have enough funds. 0-user, 1-currency",
+		"group": "Chat Messages"
+	},
+	"invalid_amount_message": {
+		"type": "textbox",
+		"value": "Sorry {0}, {1} is not a valid amount.",
+		"label": "Not Enough Funds Message",
+		"tooltip": "Chat message will be sent if user doesnt have enough funds. 0-user, 1-amount",
+		"group": "Chat Messages"
+	},
+	"no_target_message": {
+		"type": "textbox",
+		"value": "Sorry {0}, but you didn't say who to send the {1} to.",
+		"label": "No Target Message",
+		"tooltip": "Chat message will be sent if user doesnt specify a target. 0-user 1-currency",
+		"group": "Chat Messages"
+	},
+
+	"invalid_target_message": {
+		"type": "textbox",
+		"value": "Sorry {0}, but {1} doesn't exist.",
+		"label": "No Target Message",
+		"tooltip": "Chat message will be sent if user specifies an invalid target. 0-user 1-target",
+		"group": "Chat Messages"
+	}
+}
