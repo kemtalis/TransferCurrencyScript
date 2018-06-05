@@ -1,0 +1,2 @@
+EVENTUAL TODO:
+--Figure out how to add limits and cooldowns so that people cant spam currency exchange.
